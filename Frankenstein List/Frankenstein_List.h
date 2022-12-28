@@ -39,7 +39,6 @@ public:
     int size() const;
     void clear();
     void erase(const std::size_t&);
-    void erase(std::size_t, std::size_t );
     void insert(const std::size_t&, const T&);
 
 public:
