@@ -40,7 +40,7 @@ public:
     void clear();
     void erase(const std::size_t&);
     void insert(const std::size_t&, const T&);
-
+    bool empty() const;
 public:
     void PutInSortedOreder(Node*&);
 

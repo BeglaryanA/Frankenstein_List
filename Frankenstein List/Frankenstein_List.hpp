@@ -335,3 +335,9 @@ void frankenstein_list<T>::swap(frankenstein_list<T>& rhs) {
     std::swap(this->asc_head, rhs.asc_head);
     std::swap(this->desc_head, rhs.desc_head);
 }
+
+
+template <typename T>
+bool frankenstein_list<T>::empty() const {
+    return this->head == nullptr;
+}
